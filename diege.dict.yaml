@@ -1784,9 +1784,13 @@ min_phrase_weight: 100
 蠧	du3
 櫥	du5
 躕	du5
-帶	dua3
-舵	dua6
+带	dua3
+杕	dua6
 拕	dua6
+柁	dua6
+舵	dua6
+大	dua7
+亣	dua7
 單	duan1
 壇	duan5
 惰	duan6
@@ -3684,7 +3688,9 @@ min_phrase_weight: 100
 唿	hug4
 刎	hug4
 佛	hug8
+𠦪	huh4
 欻	huh4
+歘	huh4
 蜚	hui1
 非	hui1
 菲	hui1
@@ -6030,14 +6036,19 @@ min_phrase_weight: 100
 葩	pah1
 拍	pah4
 啪	pah4
+否	pai2
+歹	pai2
 呸	pai2
-湃	pai3
-派	pai3
+娝	pai2
+啡	pai1
+痞	pai2
 沛	pai3
+派	pai3
 旆	pai3
+湃	pai3
+蒎	pai3
 霈	pai3
-怕	pan3
-奅	pan3
+徘	pai5
 蜂	pang1
 攀	pang1
 嗙	pang2
@@ -6171,6 +6182,7 @@ min_phrase_weight: 100
 鉕	po2
 繁	po5
 皤	po5
+噗	pog2
 醭	pog4
 撲	pog4
 幞	pog4
@@ -6180,6 +6192,7 @@ min_phrase_weight: 100
 僕	pog4
 濮	pog4
 蹼	pog4
+噗	pog4
 璞	pog4
 鏷	pog4
 卟	pog8
@@ -6813,6 +6826,23 @@ min_phrase_weight: 100
 暹	siam5
 簷	siam5
 暹	siam5
+相	sio1
+烧	sio1
+霄	sio1
+小	sio2
+伤	sion1
+厢	sion1
+箱	sion1
+镶	siog1
+赏	sion2
+相	sion2
+像	sion5
+尝	sion5
+常	sion5
+偿	sion5
+想	sion6
+邵	sion7
+尚	sion7
 室	sig4
 失	sig4
 殖	sig8
@@ -6927,6 +6957,8 @@ min_phrase_weight: 100
 授	siu6
 綬	siu6
 壽	siu7
+小	siee1
+相	siee1
 燒	siee1
 霄	siee1
 渫	sieeg4
@@ -6946,6 +6978,7 @@ min_phrase_weight: 100
 償	sieen5
 嚐	sieen5
 邵	sieen7
+相	sieen3
 仙	sieeng1
 秈	sieeng1
 燹	sieeng2
@@ -8105,6 +8138,7 @@ min_phrase_weight: 100
 岞	zag4
 閘	zah8
 柵	zah8
+炸	zah8
 牐	zah8
 災	zai1
 栽	zai1
@@ -8595,6 +8629,7 @@ min_phrase_weight: 100
 㩼	zoi7
 節	zoih4
 截	zoih8
+前	zoin5
 前	zoin6
 琮	zong1
 樅	zong1
@@ -9381,6 +9416,19 @@ min_phrase_weight: 100
 相唚	siee1 zim1
 數唸	siou3 niam7
 視屛	
+閘壁鬼
+老姑婆	lao2 gou1 bo5
+老姑婆
+三跤貓
+精牲	zeeng1 seen1
+厝邊頭尾
+厝邊
+頭尾
+知頭
+知尾
+前人囝	
+二人囝
+歹仔
 湛江	
 欉樹	zang5 ciu7
 灶跤	zao3 ka1
@@ -9409,7 +9457,11 @@ min_phrase_weight: 100
 喙洨	cui3 siou1
 齒屎	ki2 sai2
 㩼過	
+拍噗	
+拋輾斗	pah1 ling2 dao2
 過㩼
+相爭	siee1
+掰開
 
 # 宗教
 天恩公

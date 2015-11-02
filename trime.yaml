@@ -994,6 +994,50 @@ preset_keyboards:
     - {click: space}
     - {click: BackSpace}
     - {click: Return}
+  diege_j:
+    name: 潮语
+    author: "osfans <waxaca@163.com>"
+    ascii_mode: 0
+    width: 10
+    height: 55
+    keys:
+    - {click: 'q', long_click: '!', swipe_up: 1}
+    - {click: 'w', long_click: '@', swipe_up: 2}
+    - {click: 'e', long_click: '#', swipe_up: 3}
+    - {click: 'r', long_click: '$', swipe_up: 4}
+    - {click: 't', long_click: '%', swipe_up: 5}
+    - {click: 'y', long_click: '^', swipe_up: 6}
+    - {click: 'u', long_click: '&', swipe_up: 7}
+    - {click: 'i', long_click: '*', swipe_up: 8}
+    - {click: 'o', long_click: '(', swipe_up: 9}
+    - {click: 'p', long_click: ')', swipe_up: 0}
+    - {click: 'a', long_click: select_all, swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down}
+    - {click: 's', long_click: '~', swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down}
+    - {click: 'd', long_click: '-', swipe_down: '_'}
+    - {click: 'f', long_click: '+', swipe_down: '='}
+    - {click: 'g', long_click: '\', swipe_down: '|'}
+    - {click: 'h', long_click: '[]', swipe_left: '[', swipe_right: ']'}
+    - {click: 'j', long_click: '{}', swipe_left: '{', swipe_right: '}'}
+    - {click: 'k'}
+    - {click: 'l'}
+    - {click: ';', long_click: ':'}
+    - {click: 'z', long_click: '`'}
+    - {click: 'x', long_click: cut}
+    - {click: 'c', long_click: copy}
+    - {click: 'v', long_click: paste}
+    - {click: 'b', long_click: Time, swipe_up: Date}
+    - {click: 'n', long_click: Insert}
+    - {click: 'm', long_click: Delete}
+    - {click: ',', long_click: '<'}
+    - {click: '.', long_click: '>'}
+    - {click: '/', long_click: '?'}
+    - {click: Shift_L}
+    - {click: 'Keyboard_number', long_click: Color_switch}
+    - {click: Mode_switch, long_click: Menu}
+    - {click: space, width: 30}
+    - {click: "'", long_click: '"'}
+    - {click: BackSpace, width: 15}
+    - {click: Return, long_click: CommitComment, width: 15}
   bopomofo:
     name: 註音鍵盤
     author: "註音 皛筱晓小笨鱼"
@@ -1049,7 +1093,7 @@ preset_keyboards:
     - {long_click: '。', click: '，'}
     - {click: BackSpace, long_click: Escape, width: 10}
     - {click: Return, long_click: CommitComment, width: 10}
-  diege_gd:
+  diege_gb:
     name: 潮語輸入
     author: "潮語輸入 Femkerr"
     ascii_mode: 0
@@ -1057,11 +1101,11 @@ preset_keyboards:
     height: 55
     keys:
     - {label: '手', long_click: 'q', click: q}
-    - {label: '污', long_click: 'w', click: w}
+    - {label: 'W', long_click: 'w', click: w}
     - {label: '余', long_click: 'e', click: e}
     - {label: '而', long_click: 'r', click: r}
     - {label: '妥', long_click: 't', click: t}
-    - {label: '衣', long_click: 'y', click: y}
+    - {label: 'Y', long_click: 'y', click: y}
     - {label: '污', long_click: 'u', click: u}
     - {label: '衣', long_click: 'i', click: i}
     - {label: '窝', long_click: 'o', click: o}
@@ -1070,17 +1114,17 @@ preset_keyboards:
     - {label: '亚', long_click: 'a', click: a}
     - {label: '思', long_click: 's', click: s}
     - {label: '刀', long_click: 'd', click: d}
-    - {label: '空', long_click: 'f', click: f}
+    - {label: 'F', long_click: 'f', click: f}
     - {label: '哥', long_click: 'g', click: g}
     - {label: '何', long_click: 'h', click: h}
-    - {label: '空', long_click: 'j', click: j}
+    - {label: 'J', long_click: 'j', click: j}
     - {label: '戈', long_click: 'k', click: k}
     - {label: '罗', long_click: 'l', click: l}
     - {long_click: '?', click: '/'}
     - {label: '之', click: z, long_click: 'z'}
     - {label: '思', click: x, long_click: 'x'}
     - {label: '此', click: c, long_click: 'c'}
-    - {label: '空', long_click: 'v', click: v}
+    - {label: 'V', long_click: 'v', click: v}
     - {label: '波', long_click: 'b', click: b}
     - {label: '挪', long_click: 'n', click: n}
     - {label: '毛', long_click: 'm', click: m}

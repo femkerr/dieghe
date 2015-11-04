@@ -995,7 +995,7 @@ preset_keyboards:
     - {click: BackSpace}
     - {click: Return}
   diege_j:
-    name: 潮语
+    name: 潮語
     author: "osfans <waxaca@163.com>"
     ascii_mode: 0
     width: 10
@@ -1011,6 +1011,7 @@ preset_keyboards:
     - {click: 'i', long_click: '*', swipe_up: 8}
     - {click: 'o', long_click: '(', swipe_up: 9}
     - {click: 'p', long_click: ')', swipe_up: 0}
+    - {width: 5}
     - {click: 'a', long_click: select_all, swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down}
     - {click: 's', long_click: '~', swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down}
     - {click: 'd', long_click: '-', swipe_down: '_'}
@@ -1018,9 +1019,10 @@ preset_keyboards:
     - {click: 'g', long_click: '\', swipe_down: '|'}
     - {click: 'h', long_click: '[]', swipe_left: '[', swipe_right: ']'}
     - {click: 'j', long_click: '{}', swipe_left: '{', swipe_right: '}'}
-    - {click: 'k'}
-    - {click: 'l'}
-    - {click: ';', long_click: ':'}
+    - {click: 'k', long_click: ':'}
+    - {click: 'l', long_click: ';'}
+    - {width: 5}
+    - {click: Shift_L, width: 15}
     - {click: 'z', long_click: '`'}
     - {click: 'x', long_click: cut}
     - {click: 'c', long_click: copy}
@@ -1028,53 +1030,52 @@ preset_keyboards:
     - {click: 'b', long_click: Time, swipe_up: Date}
     - {click: 'n', long_click: Insert}
     - {click: 'm', long_click: Delete}
+    - {click: BackSpace, width: 15}
+    - {click: Mode_switch, long_click: Menu, width: 15}
+    - {click: Keyboard_number, long_click: Color_switch}
+    - {click: "'", long_click: '"'}
     - {click: ',', long_click: '<'}
+    - {click: space, width: 20}
     - {click: '.', long_click: '>'}
     - {click: '/', long_click: '?'}
-    - {click: Shift_L}
-    - {click: 'Keyboard_number', long_click: Color_switch}
-    - {click: Mode_switch, long_click: Menu}
-    - {click: space, width: 30}
-    - {click: "'", long_click: '"'}
-    - {click: BackSpace, width: 15}
     - {click: Return, long_click: CommitComment, width: 15}
   bopomofo:
     name: 註音鍵盤
-    author: "註音 皛筱晓小笨鱼"
+    author: "註音 femkerr"
     ascii_mode: 0
     width: 10
     height: 44
     keys:
-    - {label: 'ㄅ', long_click: '!', click: '1'}
-    - {label: 'ㄉ', long_click: '@', click: '2'}
-    - {label: 'ˇ', long_click: '#', click: '3'}
-    - {label: 'ˋ', long_click: '$', click: '4'}
-    - {label: 'ㄓ', long_click: '%', click: '5'}
-    - {label: 'ˊ', long_click: '^', click: '6'}
-    - {label: '˙', long_click: '&', click: '7'}
-    - {label: 'ㄚ', long_click: '*', click: '8'}
-    - {label: 'ㄞ', long_click: '(', click: '9'}
-    - {label: 'ㄢ', long_click: ')', click: '0'}
-    - {label: 'ㄆ', long_click: '_', click: q}
-    - {label: 'ㄊ', long_click: '-', click: w}
-    - {label: 'ㄍ', long_click: '+', click: e}
-    - {label: 'ㄐ', long_click: '=', click: r}
-    - {label: 'ㄔ', long_click: '|', click: t}
-    - {label: 'ㄗ', long_click: '\', click: y}
-    - {label: 'ㄧ', long_click: '[', click: u}
-    - {label: 'ㄛ', long_click: ']', click: i}
-    - {label: 'ㄟ', long_click: '{', click: o}
-    - {label: 'ㄣ', long_click: '}', click: p}
-    - {label: 'ㄇ', long_click: '`', click: a}
+    - {label: 'ㄅ', long_click: '!', click: '1', swipe_up: '!'}
+    - {label: 'ㄉ', long_click: '@', click: '2', swipe_up: '@'}
+    - {label: 'ˇ', long_click: '#', click: '3', swipe_up: '#'}
+    - {label: 'ˋ', long_click: '$', click: '4', swipe_up: '$'}
+    - {label: 'ㄓ', long_click: '%', click: '5', swipe_up: '%'}
+    - {label: 'ˊ', long_click: '^', click: '6', swipe_up: '^'}
+    - {label: '˙', long_click: '&', click: '7', swipe_up: '&'}
+    - {label: 'ㄚ', long_click: '*', click: '8', swipe_up: '*'}
+    - {label: 'ㄞ', long_click: '(', click: '9', swipe_up: '('}
+    - {label: 'ㄢ', long_click: ')', click: '0', swipe_up: ')'}
+    - {label: 'ㄆ', long_click: '_', click: q, swipe_up: '_'}
+    - {label: 'ㄊ', long_click: '-', click: w, swipe_up: '-'}
+    - {label: 'ㄍ', long_click: '+', click: e, swipe_up: '+'}
+    - {label: 'ㄐ', long_click: '=', click: r, swipe_up: '='}
+    - {label: 'ㄔ', long_click: '|', click: t, swipe_up: '|'}
+    - {label: 'ㄗ', long_click: '\', click: y, swipe_up: '\'}
+    - {label: 'ㄧ', long_click: '[', click: u, swipe_up: '['}
+    - {label: 'ㄛ', long_click: ']', click: i, swipe_up: ']'}
+    - {label: 'ㄟ', long_click: '{', click: o, swipe_up: '{'}
+    - {label: 'ㄣ', long_click: '}', click: p, swipe_up: '}'}
+    - {label: 'ㄇ', long_click: '`', click: a, swipe_up: '`'}
     - {label: 'ㄋ', long_click: Up, click: s}
-    - {label: 'ㄎ', long_click: '~', click: d}
-    - {label: 'ㄑ', long_click: '!', click: f}
+    - {label: 'ㄎ', long_click: '~', click: d, swipe_up: '~'}
+    - {label: 'ㄑ', long_click: '!', click: f, swipe_up: '!'}
     - {label: 'ㄕ', click: g, long_click: select_all}
     - {label: 'ㄘ', click: h, long_click: Home}
     - {label: 'ㄨ', click: j, long_click: End}
     - {label: 'ㄜ', click: k, long_click: Page_Up}
     - {label: 'ㄠ', click: l, long_click: Page_Down}
-    - {label: 'ㄤ', long_click: ':', click: ';'}
+    - {label: 'ㄤ', long_click: ':', click: ';', swipe_up: ':'}
     - {label: 'ㄈ', click: z, long_click: Left}
     - {label: 'ㄌ', click: x, long_click: Down}
     - {label: 'ㄏ', click: c, long_click: Right}
@@ -1082,15 +1083,15 @@ preset_keyboards:
     - {label: 'ㄖ', click: b, long_click: copy}
     - {label: 'ㄙ', click: n, long_click: paste}
     - {label: 'ㄩ', click: m, long_click: Insert}
-    - {label: 'ㄝ', long_click: '<', click: ','}
-    - {label: 'ㄡ', long_click: '>', click: '.'}
-    - {label: 'ㄥ', long_click: '?', click: '/'}
+    - {label: 'ㄝ', long_click: '<', click: ',', swipe_up: '<'}
+    - {label: 'ㄡ', long_click: '>', click: '.', swipe_up: '>'}
+    - {label: 'ㄥ', long_click: '?', click: '/', swipe_up: '?'}
     - {click: Hide, long_click: Delete}
     - {click: 'Mode_switch', long_click: Menu}
     - {click: 'Keyboard_number', long_click: Color_switch}
     - {click: space, width: 30}
-    - {label: 'ㄦ', long_click: '"', click: "-"}
-    - {long_click: '。', click: '，'}
+    - {label: 'ㄦ', long_click: '"', click: "-", swipe_up: '"'}
+    - {long_click: '。', click: '，', swipe_up: '。'}
     - {click: BackSpace, long_click: Escape, width: 10}
     - {click: Return, long_click: CommitComment, width: 10}
   diege_gb:
@@ -1100,16 +1101,16 @@ preset_keyboards:
     width: 10
     height: 55
     keys:
-    - {label: '手', long_click: 'q', click: q}
-    - {label: 'W', long_click: 'w', click: w}
-    - {label: '余', long_click: 'e', click: e}
-    - {label: '而', long_click: 'r', click: r}
-    - {label: '妥', long_click: 't', click: t}
-    - {label: 'Y', long_click: 'y', click: y}
-    - {label: '污', long_click: 'u', click: u}
-    - {label: '衣', long_click: 'i', click: i}
-    - {label: '窝', long_click: 'o', click: o}
-    - {label: '抱', long_click: 'p', click: p}
+    - {label: '手', long_click: '!', click: q, swipe_up: 1}
+    - {label: 'W', long_click: '@', click: w, swipe_up: 2}
+    - {label: '余', long_click: '#', click: e, swipe_up: 3}
+    - {label: '而', long_click: '$', click: r, swipe_up: 4}
+    - {label: '妥', long_click: '%', click: t, swipe_up: 5}
+    - {label: 'Y', long_click: '^', click: y, swipe_up: 6}
+    - {label: '污', long_click: '&', click: u, swipe_up: 7}
+    - {label: '衣', long_click: '*', click: i, swipe_up: 8}
+    - {label: '窝', long_click: '(', click: o, swipe_up: 9}
+    - {label: '抱', long_click: ')', click: p, swipe_up: 0}
     - {long_click: ':', click: ';'}
     - {label: '亚', long_click: 'a', click: a}
     - {label: '思', long_click: 's', click: s}

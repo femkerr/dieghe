@@ -1402,12 +1402,17 @@ min_phrase_weight: 100
 氮	dan6	
 澹	dan6	
 擲	dan6	
-擔	dang1	
-丹	dang1	
-東	dang1	
+中	dang1	
+丹	dang1
+冬	dang1	
+東	dang1
+涷	dang1
+擔	dang1
+襌	dang1
 鄲	dang1	
 殫	dang1	
 簞	dang1	
+簹	dang1
 鐺	dang1	
 襠	dang1	
 璫	dang1	
@@ -1416,29 +1421,43 @@ min_phrase_weight: 100
 坍	dang1	
 亶	dang2	
 黨	dang2	
-讜	dang2	
-蛋	dang3	
-旦	dang3	
-誕	dang3	
-當	dang3	
-擋	dang3	
+讜	dang2
+等	dang2
+讜	dang2
+董	dong2
+蛋	dang3
+疍	dang3
+旦	dang3
+靼	dang3 
+岽	dang3
+垱	dang3	
+誕	dang3
+凍	dang3	
+當	dang3
 檔	dang3	
-筒	dang5	
-陳	dang5	
+筒	dang5
+茼	dang5
+陳	dang5
+曈	dang5
+仝	dang5
 同	dang5	
-銅	dang5	
+銅	dang5
+重	dang6
+動	dang6
 憚	dang6	
 但	dang6	
 撣	dang6	
-癉	dang6	
-盪	dang6	
+癉	dang6
+璗	dang6	
+盪	dang6
+逿	dang6	
 宕	dang6	
 菪	dang6	
-氹	dang6	
 碭	dang6	
 氹	dang6	
 蕩	dang6	
-筒	dang6	
+筒	dang6
+簜	dang6
 洞	dang7	
 峒	dang7	
 垌	dang7	
@@ -3933,7 +3952,8 @@ min_phrase_weight: 100
 佛	hug8	
 𠦪	huh4	
 欻	huh4	
-歘	huh4	
+歘	huh4
+#hui 	
 蜚	hui1	
 非	hui1	
 菲	hui1	
@@ -3981,8 +4001,12 @@ min_phrase_weight: 100
 槥	hui6	
 蔧	hui6	
 轊	hui6	
+#huin2
 匪	huin2	
-毀	huin2	
+篚	huin2
+毀	huin2
+懸	huin5 
+#hung 	
 分	hung1	
 芬	hung1	
 酚	hung1	
@@ -4021,13 +4045,17 @@ min_phrase_weight: 100
 溷	hung6	
 諢	hung6	
 惲	hung6	
-份	hung7	
-花	huee1	
+份	hung7
+#huee	
+花	huee1
+華	huee1	
 灰	huee1	
-詼	huee1	
+詼	huee1
+咴	huee1	
 火	huee2	
 夥	huee2	
-鈥	huee2	
+鈥	huee2
+歲	huee3	
 化	huee3	
 悔	huee3	
 晦	huee3	
@@ -4036,13 +4064,15 @@ min_phrase_weight: 100
 和	huee5	
 回	huee5	
 蛔	huee5	
-茴	huee5	
+茴	huee5
+鏵	huee5
 洄	huee5	
 會	huee6	
 匯	huee6	
 燴	huee6	
 薈	huee6	
-彙	huee6	
+彙	huee6
+瓦	huee6
 發	hueeg4	
 罰	hueeg8	
 伐	hueeg8	
@@ -6971,12 +7001,16 @@ min_phrase_weight: 100
 耳	re2	
 爾	re2	
 洱	re2	
-鉺	re2	
+鉺	re2
+駬	re2
 汝	re2	
 璽	re2	
 而	re5	
-鴯	re5	
-荋	re5	
+鴯	re5
+洏	re5	
+荋	re5 
+鮞	re5
+貳	re6	
 餌	re6	
 膩	re6	
 字	re6	
@@ -8822,7 +8856,8 @@ min_phrase_weight: 100
 袁	ueeng5	
 轅	ueeng5	
 櫞	ueeng5	
-湲	ueeng5	
+湲	ueeng5
+#za 	
 茬	za1	
 碴	za1	
 楂	za1	
@@ -8854,6 +8889,7 @@ min_phrase_weight: 100
 鮓	za3	
 鮺	za3	
 窄	za3	
+#zab 
 扱	zab4	
 唼	zab4	
 汁	zab4	
@@ -8866,7 +8902,8 @@ min_phrase_weight: 100
 集	zab8	
 拾	zab8	
 什	zab8	
-十	zab8	
+十	zab8
+#zag 	
 軋	zag4	
 節	zag4	
 癤	zag4	
@@ -8880,11 +8917,13 @@ min_phrase_weight: 100
 拃	zag4	
 櫛	zag4	
 作	zag4	
-岞	zag4	
+岞	zag4
+#zah 	
 閘	zah8	
 柵	zah8	
 炸	zah8	
-牐	zah8	
+牐	zah8
+#zai 	
 災	zai1	
 栽	zai1	
 甾	zai1	
@@ -8899,7 +8938,8 @@ min_phrase_weight: 100
 臍	zai5	
 在	zai6	
 豸	zai6	
-哉	zai7	
+哉	zai7
+#zam 	
 箴	zam1	
 簪	zam1	
 針	zam1	
@@ -8912,7 +8952,8 @@ min_phrase_weight: 100
 鏨	zam6	
 臟	zam6	
 髒	zam6	
-站	zam6	
+站	zam6
+#zang 	
 臧	zang1	
 曾	zang1	
 莊	zang1	
@@ -8946,7 +8987,8 @@ min_phrase_weight: 100
 叢	zang5	
 藏	zang6	
 臟	zang6	
-贈	zang7	
+贈	zang7
+#zao	
 遭	zao1	
 糟	zao1	
 蚤	zao2	
@@ -8963,7 +9005,8 @@ min_phrase_weight: 100
 唕	zao6	
 慥	zao6	
 罩	zao6	
-棹	zao6	
+棹	zao6
+#ze 	
 齜	ze1	
 茲	ze1	
 啙	ze1	
@@ -9000,12 +9043,14 @@ min_phrase_weight: 100
 恣	ze3	
 薯	ze5	
 自	ze6	
+#zeng
 磚	zeng1	
 贓	zeng1	
 樟	zeng1	
 妝	zeng1	
 葬	zeng3	
-鑽	zeng3	
+鑽	zeng3
+#zi 	
 卮	zi1	
 基	zi1	
 膣	zi1	
@@ -9062,6 +9107,7 @@ min_phrase_weight: 100
 眵	zi5	
 舐	zi6	
 巳	zi6	
+#zia 
 遮	zia1	
 鍺	zia2	
 毑	zia2	
@@ -9077,6 +9123,7 @@ min_phrase_weight: 100
 籍	zia6	
 褯	zia6	
 謝	zia7
+#ziao 
 朝	ziao1	
 焦	ziao1	
 礁	ziao1	
@@ -9093,7 +9140,9 @@ min_phrase_weight: 100
 醮	ziao3	
 皭	ziao3	
 詔	ziao3	
-哳	ziaoh4	
+#ziaoh  
+哳	ziaoh4
+#ziag 	
 勺	ziag4	
 彴	ziag4	
 妁	ziag4	
@@ -9110,17 +9159,25 @@ min_phrase_weight: 100
 繳	ziag4	
 爵	ziag4	
 嚼	ziag4	
-爝	ziag4	
+爝	ziag4
+#ziah 	
 隻	ziah4	
 跡	ziah4	
 只	ziah4	
 摭	ziah4	
-食	ziah8	
-晶	zian1	
-腈	zian1	
-汫	zian2	
-整	zian2	
-正	zian3	
+食	ziah8
+#zian 
+正	zian1	
+晶	zian1
+腈	zian1
+精	zian1
+汫	zian2
+槳	zian2
+整	zian2
+䭕	zian2
+正	zian3
+成	zian5
+情	zian5
 佔	ziam1	
 尖	ziam1	
 呫	ziam1	
@@ -9136,6 +9193,7 @@ min_phrase_weight: 100
 塹	ziam6	
 槧	ziam6	
 暫	ziam6 	
+
 湔	ziang1	
 將	ziang1	
 饘	ziang1	
